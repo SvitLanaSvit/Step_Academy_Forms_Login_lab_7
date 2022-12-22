@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="mainPasswordDiv">
+        <form action="get" name="loginBox">
+            <div class="containerSignIn">
+
+                <label>Your login:</label>
+                <input type="password" id="loginTxt" name="login">
+
+                <label id="passLbl">Your password:</label>
+                <input type="password" id="passTxt" name="pass">
+
+                <div>
+                    <label>Remember me</label>
+                    <input type="checkbox" id="rememberCheck" name="remember" >
+                </div>
+
+            </div>
+        </form>
+        <button id="signIn">Sign in</button>
+    </div>
+
+    <div class="mainPasswordDivSecond">
+        <form action="get" id="formSecond" name="boxSecond">
+            <div class="partLeft">
+                <label>Your email:</label>
+                <input type="email" name="emailTxt" id="emailId">
+                <label>Your password:</label>
+                <input type="password" name="passTxtSecond" id="passTxtId">
+            </div>
+            <div class="partRight">
+                <label>Your login:</label>
+                <input type="password" name="loginTxtSecond" id="loginIdSec">
+                <label>Repeat password:</label>
+                <input type="password" name="repeatPassTxt" id="repeatPassId">
+            </div>
+        </form>
+        <button id="signInSecond">Sign in</button>
+    </div>
+
+    <div class="mainPasswordDivThird">
+        <form action="get" id="formThird" name="boxThird">
+            <div class="container">
+
+                <div class="partLeftSec">
+                    <div class="wrap">
+                        <label>Firstname:</label>
+                        <input type="text" name="firstname" id="firstnameId">
+                    </div>
+                    <div class="wrap centerForm">
+                        <label>Birthday:</label>
+                        <input type="date" name="birthday" id="birthdayId">
+                    </div>
+                    <div class="wrap">
+                        <label>Country:</label>
+                        <select name="country" id="countriesListId">
+                            <option value="null"></option>
+                            <option value="Ukraine" id="ukraineId">Ukraine</option>
+                            <option value="Germany" id="germanyId">Germany</option>
+                            <option value="Poland" id="polandId">Poland</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="partRightSec">
+                    <div class="wrap">
+                        <label>Lastname:</label>
+                        <input type="text" name="lastname" id="lastnameId">
+                    </div>
+                    <div class="centerForm">
+                        <label>Gender:</label>
+                        <label>Male</label>
+                        <input type="radio" name="gender" id="genderMId" value="male">
+                        <label>Female</label>
+                        <input type="radio" name="gender" id="genderFId" value="female">
+                    </div>
+                    <div class="wrap">
+                        <label>City:</label>
+                        <select name="city"         id="citiesId">
+                            <option value="null"></option>
+                            <option value="Kyiv">Kyiv</option>
+                            <option value="Berlin">Berlin</option>
+                            <option value="Warszawa">Warszawa</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="partCheked">
+                <label>Skills:</label>
+                <div class="HTML">
+                    <input type="checkbox" id="htmlId" value="HTML">
+                    <label>HTML</label>
+                </div>
+                <div class="CSS">
+                    <input type="checkbox" id="cssId" value="CSS">
+                    <label>CSS</label>
+                </div>
+                <div class="JS">
+                    <input type="checkbox" id="jsId" value="JS">
+                    <label>JS</label>
+                </div>
+                <div class="PHP">
+                    <input type="checkbox" id="phpId" value="PHP">
+                    <label>PHP</label>
+                </div>
+                <div class="CPlus">
+                    <input type="checkbox" id="cPlusId" value="C++">
+                    <label>C++</label>
+                </div>
+                <div class="JAVA">
+                    <input type="checkbox" id="javaId" value="Java">
+                    <label>JAVA</label>
+                </div>
+                <div class="CSharp">
+                    <input type="checkbox" id="cSharpId" value="C#">
+                    <label>C#</label>
+                </div>
+            </div>
+        </form>
+        <button id="saveId">Save</button>
+    </div>
+
+    <div class="mainPasswordDivThird">
+        <p class="res">Result:</p>
+        <table>
+            <tr>
+                <td class="widthTable1">Firstname</td>
+                <td class="widthTable2" id="firstId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">Lastname</td>
+                <td class="widthTable2" id="lastId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">Birthday</td>
+                <td class="widthTable2" id="birthId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">Gender</td>
+                <td class="widthTable2" id="genderId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">Country</td>
+                <td class="widthTable2" id="countryId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">City</td>
+                <td class="widthTable2" id="cityId"></td>
+            </tr>
+            <tr>
+                <td class="widthTable1">Skills</td>
+                <td class="widthTable2" id="skillsId"></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

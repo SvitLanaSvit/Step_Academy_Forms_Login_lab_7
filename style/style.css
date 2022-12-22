@@ -1,0 +1,119 @@
+/*------------1----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerSignIn{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainPasswordDiv{
+    max-width: 360px;
+    padding: 30px;
+    margin: 20px auto;
+    background-color: beige;
+}
+
+#passLbl{
+    margin-top: 10px;
+}
+
+#passTxt{
+    margin-bottom: 10px;
+}
+
+#signIn{
+    margin-top: 10px;
+    width: 300px;
+}
+
+/*------------2----------*/
+.partLeft, .partRight{  
+    display: flex;
+    flex-direction: column;
+}
+
+#formSecond{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mainPasswordDivSecond{
+    max-width: 420px;
+    background-color: beige;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+#signInSecond{
+    width: 360px;
+}
+
+/*------------3----------*/
+.mainPasswordDivThird{
+    max-width: 500px;
+    background-color: beige;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.partRightSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+#firstnameId, #birthdayId, #countriesListId, #lastnameId, #warszawaId{
+    width: 210px;
+}
+
+.partCheked{
+    display: flex;
+    justify-content: space-between;
+}
+
+#saveId{
+    margin-top: 20px;
+    width: 440px;
+    padding: 5px 0;
+}
+
+.centerForm{
+    margin: 10px 0;
+}
+
+tr, td, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.widthTable1{
+    width: 140px;
+    padding: 5px 0 5px 20px;
+}
+
+.widthTable2{
+    width: 300px;
+    padding: 5px 0 5px 20px;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.res{
+    margin-bottom: 20px;
+}
